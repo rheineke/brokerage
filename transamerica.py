@@ -20,6 +20,16 @@ FUND_NAME = "Fund Name"
 BASE_URL = "https://secure.transamerica.com"
 
 
+def read_unit_values(path):
+    return pd.read_csv(path, parse_dates=[DATE], index_col=[DATE, FUND_NAME])
+
+
+def position_values(df, position_funds):
+    """Unit values of the funds held."""
+    fund_lbl = df.index.get_level_values(level=FUND_NAME).isin(position_funds)
+    return df.loc[fund_lbl]
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
@@ -62,11 +72,5 @@ if __name__ == "__main__":
 
     position_funds = config["positions"]
 
-    df = pd.read_csv(
-        filepath_or_buffer=f"output/unitvalues-{date:%Y-%m-%d}.csv",
-        parse_dates=[DATE],
-        index_col=[DATE, FUND_NAME],
-    )
-
-    fund_lbl = df.index.get_level_values(level=FUND_NAME).isin(position_funds)
-    print(df.loc[fund_lbl])
+    df = read_unit_values(f"output/unitvalues-{date:%Y-%m-%d}.csv")
+    print(position_values(df, position_funds))
