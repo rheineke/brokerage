@@ -99,3 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+configs/
+output/
+
+# Build, tool and environment caches
+.venv/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
