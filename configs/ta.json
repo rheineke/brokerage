@@ -1,0 +1,40 @@
+{
+  "tickers": {
+    "Transamerica Stable Value Account":  "foo",
+    "Bird Aggregate Bond Ret Acct":  "foo",
+    "SSgA U.S. Bond Index Ret Acct":  "foo",
+    "Legal & General S&P 500 Ret Acct":  "foo",
+    "SSgA S&P Mid Cap Index Ret Acct":  "foo",
+    "DFA US Small Cap Value Ret Acct":  "foo",
+    "SSgA Russell Small Cap Index Ret Acct":  "foo",
+    "Janus Triton Ret Acct":  "foo",
+    "Vanguard REIT Index Ret Acct":  "foo",
+    "American Funds New Prespective Ret Acct":  "foo",
+    "Invesco International Growth Ret Acct":  "foo",
+    "Oakmark International Ret Acct":  "foo",
+    "SSgA International Index Ret Acct":  "foo",
+    "SSgA Emerging Markets Index Ret Acct":  "foo",
+    "TA Vanguard Instl Trgt Re Inc":  "foo",
+    "TA Vanguard Instl Trg Re 2015":  "foo",
+    "TA Vanguard Instl Trg Re 2020":  "foo",
+    "TA Vanguard Instl Trg Re 2025":  "foo",
+    "TA Vanguard Instl Trg Re 2030":  "foo",
+    "TA Vanguard Instl Trg Re 2035":  "foo",
+    "TA Vanguard Instl Trg Re 2040":  "foo",
+    "TA Vanguard Instl Trg Re 2045":  "foo",
+    "TA Vanguard Instl Trg Re 2050":  "foo",
+    "TA Vanguard Instl Trg Re 2055":  "foo",
+    "TA Vanguard Instl Trg Re 2060":  "foo"
+  },
+  "positions": [
+    "Transamerica Stable Value Account",
+    "Invesco International Growth Ret Acct",
+    "Legal & General S&P 500 Ret Acct",
+    "SSgA Emerging Markets Index Ret Acct",
+    "SSgA S&P Mid Cap Index Ret Acct",
+    "SSgA Russell Small Cap Index Ret Acct",
+    "SSgA U.S. Bond Index Ret Acct",
+    "TA Vanguard Instl Trg Re 2050",
+    "Vanguard REIT Index Ret Acct"
+  ]
+}
